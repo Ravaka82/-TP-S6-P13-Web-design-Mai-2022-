@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^/?.*-([_a-z0-9]*).php  detail.php?idActualite=$1 [L]
+
+

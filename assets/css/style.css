@@ -1,0 +1,35 @@
+.img-fluid {
+  margin-right: 25px;
+  float:left;
+}
+
+.text-brown{
+  color: #946843;
+}
+
+.text{
+  color: cyan;
+}
+.bg-brown{
+ background: #946843;
+ border:#946843 ;
+ color: white;
+}
+.bg-color{
+ background-color: #f0faf9;
+ height:450px;
+}
+.top{
+  margin-top:-40px;
+}
+.loko{
+  background-color: #faaf3f;
+}
+.formulaire{
+  width:300px;
+}
+.h11{
+  margin-left:600px;
+  margin-top:50px;
+}
+
