@@ -1,5 +1,5 @@
 <?php 
-include('Connexion.php');
+include('connexion.php');
 	$idActualite=$_GET["idActualite"];
 	$sql2="DELETE FROM Actualite WHERE idActualite = '%s'";
 	$sql2=sprintf($sql2,$idActualite);
