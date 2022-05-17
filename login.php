@@ -25,8 +25,8 @@
   <div class="form">
     <form class="login-form" action="traitementLogin.php" method="post">
       <h1>CONNEXION ADMIN</h1>
-      <input type="text" placeholder="login" name="login" value="admin"/>
-      <input type="password" placeholder="mdp" name="mdp" value="123"/>
+      <input type="text" placeholder="login" name="login" />
+      <input type="password" placeholder="mdp" name="mdp"/>
       <button type="submit" class="btn btn-danger">VALIDER </button>
      
       <p class="errore" for="erreur">
