@@ -111,13 +111,13 @@
                   <div class="col-md-4 pe-0 pe-md-0 text-center"><img class="img-fluid" src="assets/img/illustrations/<?php echo $row['image']?>" alt="" width="200px" height="200px" /></div>
                   <div class="col-md-8 ps-md-3 pe-md-2 text-center text-md-start z-index-2">
                     <div class="card-body px-0 ">
-                      <h4 class="card-title pt-md-5 "><a href="<?php echo $row['url'];?>-<?php echo $row['idActualite'];?>"><?php echo $row['titre']?></a></h4>
+                      <h4 class="card-title pt-md-5 "><a href="<?php echo $row['url'];?>-<?php echo $row['idActualite'];?>.php"><?php echo $row['titre']?></a></h4>
                       <p class="mb-0"><?php echo $row['nomPays']?><br class="d-none d-lg-block">
                          <br class="d-none d-lg-block "><?php echo $row['dateActualite']?>
                           <br class="d-none d-lg-block"><?php echo $row['descri']?>
                            <br class="d-none d-lg-block">
                            <br class="d-none d-lg-block"> </p>
-                            <a class="btn btn-lg btn-info rounded-pill bg-brown" href="<?php echo $row['url'];?>-<?php echo $row['idActualite'];?>" role="button">Voir details</a>
+                            <a class="btn btn-lg btn-info rounded-pill bg-brown" href="<?php echo $row['url'];?>-<?php echo $row['idActualite'];?>.php" role="button">Voir details</a>
                     </div>
                   </div>
                 </div>

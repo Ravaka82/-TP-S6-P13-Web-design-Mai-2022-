@@ -5,7 +5,6 @@ include('Connexion.php');
 	$sql2=sprintf($sql2,$idActualite);
 	$resultat2 =mysqli_query($connect,$sql2) or die(mysqli_error($connect)); 
 	header('Location:BackOffice.php');
-}
 
 
 ?>

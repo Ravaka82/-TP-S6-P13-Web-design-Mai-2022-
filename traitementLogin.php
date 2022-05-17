@@ -1,5 +1,5 @@
 <?php 
-include('Connexion.php');
+include('connexion.php');
      $login= $_POST['login'];
      $mdp=$_POST['mdp'];
      $mdp=sha1($mdp);

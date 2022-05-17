@@ -70,8 +70,8 @@
           <div class="row align-items-center">
             <div class="col-md-5 col-lg-7 order-md-1 pt-8"><img class="img-fluid" src="assets/img/illustrations/7.webp" alt="" /></div>
             <div class="col-md-7 col-lg-5 text-center text-md-start pt-5 pt-md-9">
-              <h1 class="mb-4 display-2 fw-bold text-brown">Réchauffement<br class="d-block d-lg-none d-xl-block" /> climatique </h1>
-              <p class="mt-3 mb-4">c'est un phénomène global de transformation du climat <br />caractérisé par une augmentation générale des températures et qui modifie durablement les équilibres météorologiques et les écosystèmes</p><a class="btn btn-lg btn-info rounded-pill bg-brown " href="#" role="button">Voir details</a>
+              <h1 class="mb-4 display-2 fw-bold text-brown"><?php echo $row['titre']?><br class="d-block d-lg-none d-xl-block" /> climatique </h1>
+              <p class="mt-3 mb-4"><?php echo $row['descri']?></p><a class="btn btn-lg btn-info rounded-pill bg-brown " href="#" role="button">Voir details</a>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@
             <div >
                <img class="img-fluid" src="assets/img/illustrations/<?php echo $row['imageContenu']?>" alt="" width="450px">
                <div class="col-auto text-center my-4" style>
-                     <h1 class="fw-bold text-brown"><?php echo $row['titre']?></h1>
+           
               </div>
                    <br class="text">le :<?php echo $row['dateActualite']?>
                    <br>

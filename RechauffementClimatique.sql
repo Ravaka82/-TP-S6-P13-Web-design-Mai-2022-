@@ -35,9 +35,9 @@ insert into Pays values(null,'Arctique');
 insert into Pays values(null,'France');
 insert into Pays values(null,'Irak');
 
-insert into Actualite values(null,1,'corail subi un  blanchissement','2022/05/12','4.webp','Les coraux blanchis de la Grande Barriere de corail restent vivants et peuvent se retablir si les conditions s améliorent','corail-subi-un-blanchissement');
-insert into Actualite values(null,2,'record vague de chaleur','2022/04/18','arctique.webp','En mars l Antarctique a connu une vague de chaleur record et des chutes de neige inhabituellement élevées à certains endroits','record-vague-de-chaleur');
-insert into Actualite values(null,3,'secheresses plus frequentes','2022/05/12','france.webp','L hiver on a trop d eau l ete on n en a plus assez  Les agriculteurs francais face au dilèmme de la gestion de l eau','secheresses-plus-frequentes');
+insert into Actualite values(null,1,'corail subi un  blanchissement','2022/05/12','4.webp','Les coraux blanchis de la Grande Barriere de corail restent vivants et peuvent se retablir si les conditions s ameliorent','corail-subi-un-blanchissement');
+insert into Actualite values(null,2,'record vague de chaleur','2022/04/18','arctique.webp','En mars l Antarctique a connu une vague de chaleur record et des chutes de neige inhabituellement élevées a certains endroits','record-vague-de-chaleur');
+insert into Actualite values(null,3,'secheresses plus frequentes','2022/05/12','france.webp','L hiver on a trop d eau l ete on n en a plus assez  Les agriculteurs francais face au dilemme de la gestion de l eau','secheresses-plus-frequentes');
 insert into Actualite values(null,4,' agriculture  en crise ','2022/05/08','irak.webp','Des secheresses de plus en plus frequentes  des tempetes de sable plus nombreuses et le prix du carburant qui augmente','agriculture-en-crise');
 
 insert into Contenu values(null,1,'En Australie environ 91 pourcent de la Grande Barriere de corail a
